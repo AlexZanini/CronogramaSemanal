@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronograma Semanal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>Cronograma Semanal</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>TAREFA</th>
+                    <th>INÍCIO</th>
+                    <th>TÉRMINO</th>
+                    <th>Segunda</th>
+                    <th>Terça</th>
+                    <th>Quarta</th>
+                    <th>Quinta</th>
+                    <th>Sexta</th>
+
+                </tr>
+            </thead>
+            <tbody id="task-list">
+                <tr>
+                    <td><input type="text" id="task-input"></td>
+                    <td><input type="time" id="time-input"></td>
+                    <td><input type="time" id="time-input2"></td>
+                    <td><input type="checkbox" id="checkbox-segunda"></td>
+                    <td><input type="checkbox" id="checkbox-terca"></td>
+                    <td><input type="checkbox" id="checkbox-quarta"></td>
+                    <td><input type="checkbox" id="checkbox-quinta"></td>
+                    <td><input type="checkbox" id="checkbox-sexta"></td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="add-task-btn">Adicionar Tarefa</button>
+    </div>
+
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
